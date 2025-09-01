@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "GoogleSSOApp",
-    "slug": "GoogleSSOApp",
+    "slug": "googlessoapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -38,6 +38,13 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "93b5067e-bb17-4ad8-9518-a805625991a6"
+      }
+    },
+    "owner": "sameerkindia"
   }
 }
